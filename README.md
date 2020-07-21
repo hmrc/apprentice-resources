@@ -1,7 +1,7 @@
 
 # apprentice-resources
 
-This is a placeholder README.md for a new repository
+This repository is to contain resources for the apprentice academy.
 
 ### License
 
