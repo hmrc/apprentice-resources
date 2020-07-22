@@ -1,0 +1,35 @@
+Ticket
+--------
+
+Background
+- We have been asked to write a programme that 
+helps calculate the amount of fuel needed to
+transport Santa. It will take in the mass of a 
+module and calculate how much fuel is needed.
+
+Notes
+- The calculation used is mass/3 rounded down - 2.
+All of these modules are then added together to 
+calculate the total amount of fuel needed.
+
+Acceptance Criteria
+- Print the total amount of fuel:
+```
+$ python calculate_fuel.py module_masses.txt
+123456.0
+```
+
+
+Game plan
+------
+
+1. Set up a test/change/fix cycle
+  - empty unit test
+  - create the required files we're going 
+  - write a simple unit test that invokes a function from elves.py
+  - have a command that runs the test
+2. implement:
+  - load the masses from the text file
+  - take each mass and apply the calculation
+  - add the outputs to calculate the total amount of fuel
+  - output the answer
